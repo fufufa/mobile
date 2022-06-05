@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 300 12px/1.5 -apple-system,sans-serif;
+    font-size: .12rem;
+}
+
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header{
+    height: 6rem;
+}
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    box-shadow: 0 0.08rem .6667rem rgba(0,0,0,.05);
+}
+.innerTopHeader {
+    display: flex;
+    height: 100%;
+    padding: 0.5rem 0.5rem;
+}
+
+.logo {
+    display: block;
+    left: 0rem;
+    margin-right: .06rem;
+    width: 1rem;
+    height: 1rem;
+}
+.top-header-middle {
+    width: 92%;
+}
+.top-header-middle h2 {
+    margin: 0 0;
+    font-size: 1rem;
+}
+.top-header-middle p {
+    display: block;
+    font-size: .12rem;
+    color: grey;
+}
+.top-header-left {
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 1px #d8d8d8;
+    text-align: center;
+    line-height: 200%;
+}
+.top-header-btn {
+    color:#575656;
+}
+
+.innerButtunHeader{
+    padding-top: .55rem;
+    height: 2rem;
+}
+
+.nav{
+    height: 100%;
+}
+.choose-crurrent{
+    text-align: center;
+    font-size: 18px;
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+}
+.choose{
+    text-align: center;
+    font-size: 18px;
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+    
+}
+.no{
+    display: inline-block;
+    color: rgba(26,26,26,.5);
+    border-bottom:0;
+}
+.current {
+    display: inline-block;
+    height: 100%;
+    font-size: 18px;
+    color: rgba(34,213,156,1);  
+    border-bottom: .0533rem solid rgba(34,213,156,1);
+}
+.content{
+    padding-top: 0.5rem;
+}
+.innersearch{
+    position: relative;
+    height: 4rem;
+}
+.search {
+    position: absolute;
+    right: 1rem;
+    left: 1rem;
+}
+.search_box{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 1.2rem;
+    border-radius: 12px 12px 12px 12px;
+    outline: none; 
+}
+
+.search-cancel{
+    display: none;
+    position: absolute;
+    font-size: 1.2rem;
+    right: 1rem;
+    font-weight: 700;
+    top: 1rem;
+}
+.search_cont{
+    display: none;
+}
+.search_result{
+    display: none;
+    overflow: hidden;
+}
+.search_result ul {
+    width: 100rem;
+    margin-left: -1.5rem;
+}
+.hot_search_words{
+    
+    margin: 0 1rem 0 1rem;
+}
+.hot_search_words a{
+    display: inline-block;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.9rem;
+    border:1px #b0aeae solid;
+    padding: 0 0.5rem 0 0.5rem;
+}
+.hot_search h2{
+    margin: .16rem 1rem 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.main{
+    display: block;
+}
+.main h2{
+    margin: 0;
+    position: absolute;
+    left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:rgba(26,26,26,1)
+}
+
+.main a{
+    position: absolute;
+    top: 0.3rem;
+    right: 1rem;
+    height: .2rem;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(26,26,26,.5);
+}
+.section-position{
+    position: relative;
+    height: 1rem;
+}
+
+.section-content{
+    margin-top: 1rem;
+}
+.real-content{
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.list-wrap{
+    width: 2000rem;
+    margin-left: -1.5rem;
+}
+.list-item{
+    display: inline-block;
+    margin-right: 1rem;
+    border-radius: 20%;
+}
+.list-img{
+    border-radius: 10%;
+    width: 6.4rem;
+    height:6.4rem;
+}
+.section3 .list-img{
+    margin-left: -1rem;
+    height: 9.4rem;
+    width: 11rem;
+}
+.section3 .list-img img {
+    border-radius: 20%;
+}
+img{
+    border-radius:10%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.change{
+    display: block;
+}
+.change1{
+    display: none;
+}
+.list-rank{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1rem;
+    margin-block-end: 0.2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 2rem; 
+}
+.rank-item{
+    display: flex;
+    margin: 0 .16rem .82rem;
+    border-radius: .08rem 0 0 .08rem;
+}
+.rank-item-box {
+    display: inline-block;
+    width: 60%;
+}
+.rank-item-box h2{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.rank-item-box ol{
+    width: 100%;
+    
+    padding-left: 0.7rem;
+    margin: 0;
+}
+.rank-songs-list{
+   list-style:decimal;
+}
+.rank-list-media{
+    position: relative;
+    border-radius: 0 7%  7% 0;
+    height: 6.7rem;
+    width: 6.7rem;
+    background-color: #575656;
+}
+.rank-list-media img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top-updata{
+    position: absolute;
+    right: 0;
+    color: aliceblue;
+}
+.count-num{
+    position: absolute;
+    color: aliceblue;
+    right: 0;
+    bottom: 0;
+}
